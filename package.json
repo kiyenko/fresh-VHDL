@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sinelaw/fresh/main/crates/fresh-editor/plugins/schemas/package.schema.json",
+  "name": "VHDL",
+  "version": "0.1.0",
+  "description": "VHDL language support for Fresh - syntax highlighting",
+  "type": "language",
+  "author": "",
+  "license": "MIT",
+  "keywords": ["VHDL"],
+  "fresh": {
+    "grammar": {
+      "file": "grammars/VHDL.sublime-syntax",
+      "extensions": ["vhd", "vhdl", "vho", "vht"]
+    },
+    "language": {
+      "commentPrefix": "--",
+      "tabSize": 4,
+      "autoIndent": true
+    }
+  }
+}
